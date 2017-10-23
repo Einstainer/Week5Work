@@ -9,3 +9,14 @@ document.addEventListener("deviceready", onDeviceReady, false);
 	alert("device ready");
     }
 
+
+
+$( document ).ready( onLoad );
+
+
+function onLoad( jQuery ) {
+    // Code to run when the document is ready.
+    alert("onLoad");
+}
+
+
